@@ -24,7 +24,8 @@ function fn_ValForm() {
 
     if (sMsg != "") {
         alert("Peringatan:\n" + sMsg);
-        return false;
+    } else {
+        alert("Berhasil Dikirim!")
     }
 
     return true;
